@@ -68,5 +68,12 @@ public class TestPizza {
       assertEquals('d',p.pizzacrust('d'));
 
     }
-     
+         
+    @Test
+    public void testpizzatoppings()
+    {
+       assertEquals('y',p.pizzatoppings('y'));
+
+    }
+
 }

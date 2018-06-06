@@ -68,5 +68,23 @@ class pizza{
  
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    int pizzatoppings(char numberOfToppings)
+    {
+       
+        if (numberOfToppings =='y' || numberOfToppings == 'Y' )
+	     {
+	       return 'y';
+	        
+	     }
+	     else
+	     {
+	         return 'n';
+	     }
+
+    }
+Object pizzatoppings(String y) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }
