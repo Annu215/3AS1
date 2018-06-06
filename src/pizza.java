@@ -21,6 +21,14 @@ class pizza{
     }
     
     
+        String order(String name)
+    {
+        
+        return name;
+        
+    }
+
+    
     int pizzadetails(int inches)
     {
         if(inches==10)
