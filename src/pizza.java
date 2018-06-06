@@ -21,4 +21,22 @@ class pizza{
     }
     
     
+    int pizzadetails(int inches)
+    {
+        if(inches==10)
+            return 150;
+        
+        else if(inches==12)
+            return 200;
+        
+        else if(inches==14)
+            return 300;
+        
+        else if(inches==16)
+            return 400;
+            
+        return 0;
+    }
+
+    
 }

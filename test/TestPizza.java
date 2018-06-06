@@ -46,5 +46,12 @@ public class TestPizza {
       assertEquals(110,p.deliverycharge(2));
     }
     
+         @Test
+    public void testpizzadetails()
+    {
+      assertEquals(150,p.pizzadetails(10));
+
+    }
+
      
 }
