@@ -46,5 +46,27 @@ class pizza{
         return 0;
     }
 
-    
+        int pizzacrust(char crustType)
+    {
+        if (crustType == 'H' || crustType == 'h' )
+	     {
+            
+	         return crustType;
+	     }
+	     else if (crustType == 'T' || crustType == 't' )
+	     {
+                 
+	         return crustType;
+	     }
+	     else if (crustType == 'D' || crustType == 'd' )
+	     {
+	         return crustType;
+	     }
+        return 0;
+    }
+    Object pizzacrust(String t) {
+ 
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
